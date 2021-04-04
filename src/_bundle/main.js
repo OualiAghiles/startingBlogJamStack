@@ -1,1 +1,3 @@
-import "./main.pcss";
+import "./main.css";
+
+console.log('starting')

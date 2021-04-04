@@ -10,11 +10,11 @@
   <title>{{ title }}</title>
   {% block head %}{% endblock %}
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="flex flex-col min-h-screen bg-gray-50">
 {% include 'header.njk' %}
-<main class="container flex-grow py-8">
+<main class="flex-grow">
  {{ content | safe }}
  </main>
-{% include 'footer.njk' %}  
+{% include 'footer.njk' %}
 </body>
 </html>
